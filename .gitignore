@@ -32,3 +32,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Auth and firebase app config
+/app
+/config
