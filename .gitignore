@@ -36,3 +36,6 @@ yarn-error.log*
 # Auth and firebase app config
 /app
 /config
+
+# NOTES AND BUGS
+Bugs.txt
