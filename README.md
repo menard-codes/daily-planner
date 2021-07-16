@@ -15,7 +15,7 @@ Authentication
 - [x] I cannot proceed to any pages if I'm not logged in
 - [x] I can create an account using my Google Account
 - [x] Upon siging in, I will be redirected to the main page
-- [ ] I can see a SignOut button on the navbar and I can log out if I click that button
+- [x] I can see a SignOut button on the navbar and I can log out if I click that button
 
 The Planner
 

@@ -1,9 +1,28 @@
+.signOutBtn {
+  padding: 5px 15px;
+  border: 2px solid rgb(112, 112, 112);
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.signOutBtn:hover {
+  background-color: rgb(184, 184, 184);
+  color: #fff;
+  border-color: rgb(184, 184, 184);
+  transition: 0.2s ease-in;
+}
+
+.signOutBtn:active {
+  background-color: #fff;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
 }
