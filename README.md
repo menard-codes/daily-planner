@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Daily Planner App
 
-## Getting Started
+## Description
 
-First, run the development server:
+This will be a simple web app for personal purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The App will let me set my goals for the day before the day starts (in the morning) or the night before that day.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The essence is to plan out in advance how to efficiently spend the day and prevent from wasting it.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Requirements (User Requirements)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Authentication
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [x] I cannot proceed to any pages if I'm not logged in
+- [x] I can create an account using my Google Account
+- [x] Upon siging in, I will be redirected to the main page
+- [x] I can see a SignOut button on the navbar and I can log out if I click that button
 
-## Learn More
+The Planner
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] I can see a Link at the top that says 'Plan of the Day'
+- [ ] If I click the 'Plan of the Day', I will be redirected to plan of the day page and see today's aims
+- [ ] Back on the Set Goal Page, I can see an input labeled 'On this day...' where I can write how I will plan the day, describe it, the goals, and whatever thoughts I have for this day
+- [ ] I can see an input labeled 'Todo List' where I can write chunks of tasks that are doable within the day
+- [ ] I can see a button that says 'add todo' where it will add the current todo I have on the input and wont accept if it has 3 or less characters.
+- [ ] Clicking the 'add todo' will add the todo below the input. This will allow me to add another todo in the 'todo list' input where it must be cleared.
+- [ ] I can see a button labeled "Let's start working!". If I click this button, all the records I encoded will be saved and I will be redirected to the ''
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Plan of the Day
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ ] I can see the description or text that I wrote on the 'Plan the day' page reflecting the 'On this day' input.
+- [ ] I can see the lists of todos under the 'Todo List' where all the tasks I plan on doing will be listed here.
+- [ ] I have an ability to cross out or uncross the tasks on this list and the cross out will reflect the tasks I already finished
+- [ ] At the bottom of this page, I can see a button labeled 'Aimed Today's Goals!' which is disabled if all the lists haven't been completed yet, and activated when all checkboxes are ticked. This will make the page show 'Yey! Aimed today's goal already!'

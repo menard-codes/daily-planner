@@ -1,0 +1,5 @@
+
+Auth:
+    -After logging in, I was redirected back to auth page with an empty sign in button, then I was redirected again to home page
+
+
